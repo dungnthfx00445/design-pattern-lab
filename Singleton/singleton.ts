@@ -2,7 +2,7 @@
  * The Singleton class defines an `instance` getter, that lets clients access
  * the unique singleton instance.
  */
- class Singleton {
+class Singleton {
     static #instance: Singleton;
 
     /**
@@ -51,3 +51,5 @@ function clientCode() {
 }
 
 clientCode();
+
+export { }

@@ -1,2 +1,4 @@
-tsc name.ts
-node name.js
+# Run file
+
+- tsc "name file".ts
+- node "name file".js

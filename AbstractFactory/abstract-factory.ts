@@ -6,7 +6,7 @@
  * variants, but the products of one variant are incompatible with products of
  * another.
  */
- interface AbstractFactory {
+interface AbstractFactory {
     createProductA(): AbstractProductA;
 
     createProductB(): AbstractProductB;
@@ -144,3 +144,5 @@ console.log('');
 
 console.log('Client: Testing the same client code with the second factory type...');
 clientCode(new ConcreteFactory2());
+
+export { }

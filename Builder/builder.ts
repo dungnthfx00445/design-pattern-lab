@@ -2,7 +2,7 @@
  * The Builder interface specifies methods for creating the different parts of
  * the Product objects.
  */
- interface Builder {
+interface Builder {
     producePartA(): void;
     producePartB(): void;
     producePartC(): void;
@@ -139,3 +139,5 @@ function clientCode(director: Director) {
 
 const director = new Director();
 clientCode(director);
+
+export { }

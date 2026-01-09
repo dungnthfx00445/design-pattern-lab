@@ -2,7 +2,7 @@
  * The base Component interface defines operations that can be altered by
  * decorators.
  */
- interface Component {
+interface Component {
     operation(): string;
 }
 
@@ -93,3 +93,5 @@ const decorator1 = new ConcreteDecoratorA(simple);
 const decorator2 = new ConcreteDecoratorB(decorator1);
 console.log('Client: Now I\'ve got a decorated component:');
 clientCode(decorator2);
+
+export { }
